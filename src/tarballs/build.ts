@@ -2,7 +2,6 @@ import {ArchTypes, PlatformTypes} from '@oclif/config'
 import * as Errors from '@oclif/errors'
 import * as path from 'path'
 import * as qq from 'qqjs'
-import * as util from 'util'
 
 import {log} from '../log'
 
