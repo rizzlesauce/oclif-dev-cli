@@ -1,12 +1,12 @@
 {
-  "name": "@oclif/dev-cli",
+  "name": "@rizzlesauce/oclif-dev-cli",
   "description": "helpers for oclif CLIs",
   "version": "1.22.2",
   "author": "Jeff Dickey @jdxcode",
   "bin": {
     "oclif-dev": "./bin/run"
   },
-  "bugs": "https://github.com/oclif/dev-cli/issues",
+  "bugs": "https://github.com/rizzlesauce/oclif-dev-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.13",
     "@oclif/config": "^1.12.12",
@@ -51,7 +51,7 @@
     "/bin",
     "/lib"
   ],
-  "homepage": "https://github.com/oclif/dev-cli",
+  "homepage": "https://github.com/rizzlesauce/oclif-dev-cli",
   "keywords": [
     "oclif"
   ],
@@ -82,7 +82,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "oclif/dev-cli",
+  "repository": "rizzlesacue/oclif-dev-cli",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "lint": "tsc -p test --noEmit && tslint -p test -t stylish",
