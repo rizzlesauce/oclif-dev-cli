@@ -1,7 +1,7 @@
 {
   "name": "@rizzlesauce/oclif-dev-cli",
   "description": "helpers for oclif CLIs",
-  "version": "1.22.3-rossa.4",
+  "version": "1.22.3-rossa.5",
   "author": "Jeff Dickey @jdxcode",
   "bin": {
     "oclif-dev": "./bin/run"
