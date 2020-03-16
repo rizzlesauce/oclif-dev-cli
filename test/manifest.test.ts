@@ -1,4 +1,4 @@
-import * as Config from '@oclif/config'
+import * as Config from '@rizzlesauce/oclif-config'
 import {expect, test} from '@oclif/test'
 import * as fs from 'fs-extra'
 

@@ -1,7 +1,7 @@
 // tslint:disable no-implicit-dependencies
 
 import {Command} from '@rizzlesauce/oclif-command'
-import * as Config from '@oclif/config'
+import * as Config from '@rizzlesauce/oclif-config'
 import * as fs from 'fs-extra'
 import * as path from 'path'
 

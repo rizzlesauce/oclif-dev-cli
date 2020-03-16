@@ -1,4 +1,4 @@
-import * as Config from '@oclif/config'
+import * as Config from '@rizzlesauce/oclif-config'
 import * as path from 'path'
 import * as qq from 'qqjs'
 

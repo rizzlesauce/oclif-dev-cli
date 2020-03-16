@@ -1,7 +1,7 @@
 // tslint:disable no-implicit-dependencies
 
 import {Command, flags} from '@rizzlesauce/oclif-command'
-import * as Config from '@oclif/config'
+import * as Config from '@rizzlesauce/oclif-config'
 import Help from '@oclif/plugin-help'
 import CommandHelp from '@oclif/plugin-help/lib/command'
 import RootHelp from '@oclif/plugin-help/lib/root'

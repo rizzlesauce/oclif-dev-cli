@@ -1,4 +1,4 @@
-import {ArchTypes, PlatformTypes} from '@oclif/config'
+import {ArchTypes, PlatformTypes} from '@rizzlesauce/oclif-config'
 import * as Errors from '@oclif/errors'
 import * as path from 'path'
 import * as qq from 'qqjs'

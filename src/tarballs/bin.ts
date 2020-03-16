@@ -1,4 +1,4 @@
-import * as Config from '@oclif/config'
+import * as Config from '@rizzlesauce/oclif-config'
 import * as qq from 'qqjs'
 
 export async function writeBinScripts({config, baseWorkspace, nodeVersion}: {config: Config.IConfig, baseWorkspace: string, nodeVersion: string}) {

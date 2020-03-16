@@ -1,5 +1,5 @@
 import {Command, flags} from '@rizzlesauce/oclif-command'
-import * as Config from '@oclif/config'
+import * as Config from '@rizzlesauce/oclif-config'
 import * as _ from 'lodash'
 import * as qq from 'qqjs'
 

@@ -1,5 +1,5 @@
 import {Command, flags} from '@rizzlesauce/oclif-command'
-import {ArchTypes, PlatformTypes} from '@oclif/config'
+import {ArchTypes, PlatformTypes} from '@rizzlesauce/oclif-config'
 import * as qq from 'qqjs'
 
 import aws from '../../aws'
