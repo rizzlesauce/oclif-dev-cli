@@ -209,7 +209,7 @@
     tslint-eslint-rules "^5.4.0"
     tslint-xo "^0.9.0"
 
-"@rizzlesauce/oclif-command@^1.5.20-rossa.6", "@rizzlesauce/oclif-command@^1.5.20-rossa.7":
+"@rizzlesauce/oclif-command@^1.5.20-rossa.6":
   version "1.5.20-rossa.7"
   resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-command/-/oclif-command-1.5.20-rossa.7.tgz#3208a0bd341cae6845a05263af0c668a6a8bb89f"
   integrity sha512-bdaRUjYfE9YjUUMgt36U/b0BUsmw58j30jpTGiRyMU8d6FmR6EgPvsYYEfPnE95MaW469zWt1tuK/o0aG3NB3Q==
@@ -218,6 +218,18 @@
     "@rizzlesauce/oclif-errors" "^1.2.2-beta.1"
     "@rizzlesauce/oclif-parser" "^3.8.5-rossa.1"
     "@rizzlesauce/oclif-plugin-help" "^2.2.4-rossa.1"
+    debug "^4.1.1"
+    semver "^5.6.0"
+
+"@rizzlesauce/oclif-command@^1.5.20-rossa.8":
+  version "1.5.20-rossa.8"
+  resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-command/-/oclif-command-1.5.20-rossa.8.tgz#0befbc4212063853605fa4665d9be8da13945fa2"
+  integrity sha512-xrhPTplSeDzh36XfaVzgViIDXqOgQVTiPz5ZDuELXiPvi60JzRcNY+JJL9K/QMaT29R1yBZi7ME2Kk3rB+zO1A==
+  dependencies:
+    "@rizzlesauce/oclif-config" "^1.13.4-rossa.4"
+    "@rizzlesauce/oclif-errors" "^1.2.2-beta.1"
+    "@rizzlesauce/oclif-parser" "^3.8.5-rossa.1"
+    "@rizzlesauce/oclif-plugin-help" "^2.2.4-rossa.2"
     debug "^4.1.1"
     semver "^5.6.0"
 
@@ -254,6 +266,21 @@
   version "2.2.4-rossa.1"
   resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-plugin-help/-/oclif-plugin-help-2.2.4-rossa.1.tgz#93400c8d4a8ef596131b00dfe513156c7e9f11a4"
   integrity sha512-r4eMRjPlcqZ9Q3UiLNgo5iBwWqHJstZDMZurnX8PMN42m2pW5/tniGNJBTATZ7nwig1uEJm8vO5iJx5h+SrjkA==
+  dependencies:
+    "@rizzlesauce/oclif-command" "^1.5.20-rossa.6"
+    chalk "^2.4.1"
+    escape-string-regexp "^2.0.0"
+    indent-string "^4.0.0"
+    lodash.template "^4.4.0"
+    string-width "^3.0.0"
+    strip-ansi "^5.0.0"
+    widest-line "^2.0.1"
+    wrap-ansi "^4.0.0"
+
+"@rizzlesauce/oclif-plugin-help@^2.2.4-rossa.2":
+  version "2.2.4-rossa.2"
+  resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-plugin-help/-/oclif-plugin-help-2.2.4-rossa.2.tgz#fde67087de8e4b1ae6e9326cdbbb78f9ea90e6a7"
+  integrity sha512-BZppEcuqUyU/yiqKXxHD1UsNFbuJTmLyC2fzjCd02BKzYPc0VuxH3A6Ja9dorhPPN0Xdd9tQWnuzUNGNkdnuEA==
   dependencies:
     "@rizzlesauce/oclif-command" "^1.5.20-rossa.6"
     chalk "^2.4.1"
