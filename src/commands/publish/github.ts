@@ -1,4 +1,4 @@
-import {Command} from '@oclif/command'
+import {Command} from '@rizzlesauce/oclif-command'
 // import * as Octokit from '@octokit/rest'
 // import * as fs from 'fs-extra'
 // import * as path from 'path'

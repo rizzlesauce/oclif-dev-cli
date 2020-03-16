@@ -1,4 +1,4 @@
-import {Command, flags} from '@oclif/command'
+import {Command, flags} from '@rizzlesauce/oclif-command'
 import {ArchTypes, PlatformTypes} from '@oclif/config'
 import * as qq from 'qqjs'
 

@@ -1,4 +1,4 @@
-import {Command, flags} from '@oclif/command'
+import {Command, flags} from '@rizzlesauce/oclif-command'
 import * as Config from '@oclif/config'
 import * as path from 'path'
 import * as qq from 'qqjs'

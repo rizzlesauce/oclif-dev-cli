@@ -209,6 +209,62 @@
     tslint-eslint-rules "^5.4.0"
     tslint-xo "^0.9.0"
 
+"@rizzlesauce/oclif-command@^1.5.20-rossa.6", "@rizzlesauce/oclif-command@^1.5.20-rossa.7":
+  version "1.5.20-rossa.7"
+  resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-command/-/oclif-command-1.5.20-rossa.7.tgz#3208a0bd341cae6845a05263af0c668a6a8bb89f"
+  integrity sha512-bdaRUjYfE9YjUUMgt36U/b0BUsmw58j30jpTGiRyMU8d6FmR6EgPvsYYEfPnE95MaW469zWt1tuK/o0aG3NB3Q==
+  dependencies:
+    "@rizzlesauce/oclif-config" "^1.13.4-rossa.4"
+    "@rizzlesauce/oclif-errors" "^1.2.2-beta.1"
+    "@rizzlesauce/oclif-parser" "^3.8.5-rossa.1"
+    "@rizzlesauce/oclif-plugin-help" "^2.2.4-rossa.1"
+    debug "^4.1.1"
+    semver "^5.6.0"
+
+"@rizzlesauce/oclif-config@^1.13.4-rossa.4":
+  version "1.13.4-rossa.4"
+  resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-config/-/oclif-config-1.13.4-rossa.4.tgz#32feeb29260eee85342582e35a4e7c40fb0920db"
+  integrity sha512-gGaKz0Z//NnhWZATnnFB2PUaDLPKCg2HTOFyz88RCwAlu0orFgtJXIuAJtuPOcrOsXrPcCRoF5Pk13wm9D+vlA==
+  dependencies:
+    "@rizzlesauce/oclif-parser" "^3.8.5-rossa.1"
+    debug "^4.1.1"
+    tslib "^1.9.3"
+
+"@rizzlesauce/oclif-errors@^1.2.2-beta.1":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-errors/-/oclif-errors-1.2.2.tgz#d2ac629f7a32dd2f13a174c81a8edfd1437ce12e"
+  integrity sha512-gLeTH7t5oy7oHp/1CQYdngBjtj3SUDitDHYQt+QbUTcgjT9t3ekiaqMqaK8/k3MFbUPsE7I88NT4+asG3KE3jw==
+  dependencies:
+    clean-stack "^1.3.0"
+    fs-extra "^7.0.0"
+    indent-string "^3.2.0"
+    strip-ansi "^5.0.0"
+    wrap-ansi "^4.0.0"
+
+"@rizzlesauce/oclif-parser@^3.8.5-rossa.1":
+  version "3.8.5-rossa.1"
+  resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-parser/-/oclif-parser-3.8.5-rossa.1.tgz#7d9d059e39dc77716499008defa869fa813e91c7"
+  integrity sha512-E8yVL665oNlaf8S1DyWRe2EQ3Wiryzo+AKTzH6dQb6EpRUp2YnRSTyinlb6GmwbjzFoLnBeWGSH9x90lsw3N/w==
+  dependencies:
+    "@oclif/linewrap" "^1.0.0"
+    chalk "^2.4.2"
+    tslib "^1.9.3"
+
+"@rizzlesauce/oclif-plugin-help@^2.2.4-rossa.1":
+  version "2.2.4-rossa.1"
+  resolved "https://registry.yarnpkg.com/@rizzlesauce/oclif-plugin-help/-/oclif-plugin-help-2.2.4-rossa.1.tgz#93400c8d4a8ef596131b00dfe513156c7e9f11a4"
+  integrity sha512-r4eMRjPlcqZ9Q3UiLNgo5iBwWqHJstZDMZurnX8PMN42m2pW5/tniGNJBTATZ7nwig1uEJm8vO5iJx5h+SrjkA==
+  dependencies:
+    "@rizzlesauce/oclif-command" "^1.5.20-rossa.6"
+    chalk "^2.4.1"
+    escape-string-regexp "^2.0.0"
+    indent-string "^4.0.0"
+    lodash.template "^4.4.0"
+    string-width "^3.0.0"
+    strip-ansi "^5.0.0"
+    widest-line "^2.0.1"
+    wrap-ansi "^4.0.0"
+
 "@types/chai@*", "@types/chai@^4.1.7":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.7.tgz#1b8e33b61a8c09cbe1f85133071baa0dbf9fa71a"
@@ -1126,6 +1182,11 @@ escape-string-regexp@1.0.5, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
+escape-string-regexp@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
+  integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
+
 esprima@^4.0.0, esprima@~4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
@@ -1677,6 +1738,11 @@ indent-string@^3.0.0, indent-string@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-3.2.0.tgz#4a5fd6d27cc332f37e5419a504dbb837105c9289"
   integrity sha1-Sl/W0nzDMvN+VBmlBNu4NxBckok=
+
+indent-string@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/indent-string/-/indent-string-4.0.0.tgz#624f8f4497d619b2d9768531d58f4122854d7251"
+  integrity sha512-EdDDZu4A2OyIK7Lr/2zG+w5jmbuk1DVBnEwREQvBzspBJkCEbRa8GxU1lghYcaGJCnRWibjDXlq779X1/y5xwg==
 
 inflight@^1.0.4:
   version "1.0.6"

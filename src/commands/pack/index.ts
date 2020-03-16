@@ -1,4 +1,4 @@
-import {Command, flags} from '@oclif/command'
+import {Command, flags} from '@rizzlesauce/oclif-command'
 import * as qq from 'qqjs'
 
 import * as Tarballs from '../../tarballs'

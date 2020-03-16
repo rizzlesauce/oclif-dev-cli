@@ -1,2 +1,2 @@
-export {run} from '@oclif/command'
+export {run} from '@rizzlesauce/oclif-command'
 export {IManifest} from './tarballs'
