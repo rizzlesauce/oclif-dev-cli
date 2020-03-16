@@ -2,9 +2,9 @@
 
 import {Command, flags} from '@rizzlesauce/oclif-command'
 import * as Config from '@rizzlesauce/oclif-config'
-import Help from '@oclif/plugin-help'
-import CommandHelp from '@oclif/plugin-help/lib/command'
-import RootHelp from '@oclif/plugin-help/lib/root'
+import Help from '@rizzlesauce/oclif-plugin-help'
+import CommandHelp from '@rizzlesauce/oclif-plugin-help/lib/command'
+import RootHelp from '@rizzlesauce/oclif-plugin-help/lib/root'
 import * as fs from 'fs-extra'
 import * as _ from 'lodash'
 import * as path from 'path'
