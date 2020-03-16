@@ -1,3 +1,7 @@
+## [1.22.3-rossa.4](https://github.com/rizzlesacue/oclif-dev-cli/compare/v1.22.3-rossa.3...v1.22.3-rossa.4) (2020-03-16)
+
+
+
 ## [1.22.3-rossa.3](https://github.com/rizzlesacue/oclif-dev-cli/compare/v1.22.3-rossa.2...v1.22.3-rossa.3) (2020-03-14)
 
 
