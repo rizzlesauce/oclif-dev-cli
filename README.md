@@ -20,7 +20,7 @@ helpers for oclif CLIs
 ```sh-session
 $ npm install -g @rizzlesauce/oclif-dev-cli
 $ oclif-dev (-v|-version|--version)
-@rizzlesauce/oclif-dev-cli/1.22.3-rossa.5 darwin-x64 node-v12.16.1
+@rizzlesauce/oclif-dev-cli/1.22.3-rossa.6 darwin-x64 node-v12.16.1
 $ oclif-dev (-h|-help|--help) [COMMAND]
 USAGE
   $ oclif-dev [COMMAND]
@@ -70,7 +70,7 @@ ARGUMENTS
   PATH  [default: .] path to plugin
 ```
 
-_See code: [src/commands/manifest.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/manifest.ts)_
+_See code: [src/commands/manifest.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/manifest.ts)_
 
 ## `oclif-dev pack`
 
@@ -89,7 +89,7 @@ DESCRIPTION
   This can be used to create oclif CLIs that use the system node or that come preloaded with a node binary.
 ```
 
-_See code: [src/commands/pack/index.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/pack/index.ts)_
+_See code: [src/commands/pack/index.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/pack/index.ts)_
 
 ## `oclif-dev pack:deb`
 
@@ -103,7 +103,7 @@ OPTIONS
   -r, --root=root  (required) [default: .] path to oclif CLI root
 ```
 
-_See code: [src/commands/pack/deb.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/pack/deb.ts)_
+_See code: [src/commands/pack/deb.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/pack/deb.ts)_
 
 ## `oclif-dev pack:macos`
 
@@ -117,7 +117,7 @@ OPTIONS
   -r, --root=root  (required) [default: .] path to oclif CLI root
 ```
 
-_See code: [src/commands/pack/macos.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/pack/macos.ts)_
+_See code: [src/commands/pack/macos.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/pack/macos.ts)_
 
 ## `oclif-dev pack:win`
 
@@ -131,7 +131,7 @@ OPTIONS
   -r, --root=root  (required) [default: .] path to oclif CLI root
 ```
 
-_See code: [src/commands/pack/win.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/pack/win.ts)_
+_See code: [src/commands/pack/win.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/pack/win.ts)_
 
 ## `oclif-dev publish`
 
@@ -148,7 +148,7 @@ DESCRIPTION
   "aws-sdk" will need to be installed as a devDependency to publish.
 ```
 
-_See code: [src/commands/publish/index.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/publish/index.ts)_
+_See code: [src/commands/publish/index.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/publish/index.ts)_
 
 ## `oclif-dev publish:deb`
 
@@ -162,7 +162,7 @@ OPTIONS
   -r, --root=root  (required) [default: .] path to oclif CLI root
 ```
 
-_See code: [src/commands/publish/deb.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/publish/deb.ts)_
+_See code: [src/commands/publish/deb.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/publish/deb.ts)_
 
 ## `oclif-dev publish:macos`
 
@@ -176,7 +176,7 @@ OPTIONS
   -r, --root=root  (required) [default: .] path to oclif CLI root
 ```
 
-_See code: [src/commands/publish/macos.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/publish/macos.ts)_
+_See code: [src/commands/publish/macos.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/publish/macos.ts)_
 
 ## `oclif-dev publish:win`
 
@@ -190,7 +190,7 @@ OPTIONS
   -r, --root=root  (required) [default: .] path to oclif CLI root
 ```
 
-_See code: [src/commands/publish/win.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/publish/win.ts)_
+_See code: [src/commands/publish/win.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/publish/win.ts)_
 
 ## `oclif-dev readme`
 
@@ -214,5 +214,5 @@ DESCRIPTION
   Customize the code URL prefix by setting oclif.repositoryPrefix in package.json.
 ```
 
-_See code: [src/commands/readme.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.5/src/commands/readme.ts)_
+_See code: [src/commands/readme.ts](https://github.com/rizzlesacue/oclif-dev-cli/blob/v1.22.3-rossa.6/src/commands/readme.ts)_
 <!-- commandsstop -->
